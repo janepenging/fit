@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Health Debt — Track Your Health Debt</title>
+  <meta name="description" content="Health Debt is a minimalist health liability tracker. Record daily health-depleting behaviors, see your cumulative health debt, and understand your lifestyle patterns. All data stays on your device.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="app_icon.png">
+  <link rel="apple-touch-icon" href="app_icon.png">
+  <link rel="stylesheet" href="site.css">
+</head>
+<body>
+  <header class="topbar">
+    <a href="index.html" class="logo">
+      <img class="logo-mark" src="app_icon.png" alt="Health Debt">
+      <span class="logo-name">Health Debt</span>
+    </a>
+  </header>
+
+  <section class="hero">
+    <div class="hero-grain"></div>
+    <div class="hero-radial"></div>
+    <div class="hero-inner">
+      <h1 class="hero-title">You're not unhealthy.<br><em>You're in debt.</em></h1>
+      <p class="hero-desc">Health Debt doesn't count your steps or cheer you on. It records one thing only: how much health you overdrafted today.</p>
+    </div>
+    <div class="hero-phones">
+      <div class="phone">
+        <img src="home.jpg" alt="Health Debt dashboard showing today's health debt as a single number">
+      </div>
+      <div class="phone phone-offset">
+        <img src="add.jpg" alt="Select behavior screen for recording a health debt">
+      </div>
+      <div class="phone">
+        <img src="history.jpg" alt="Health ledger listing daily records and accrued debt">
+      </div>
+    </div>
+  </section>
+
+  <section class="bubble-section">
+    <div class="sec-kicker">Trackable Behaviors</div>
+    <h2 class="sec-title">What counts as health debt</h2>
+    <div class="bubble-circle">
+      <span class="bubble-word bw-lg" style="--dx:-110px;--dy:-80px;--dur:6.2s;--delay:0s">Sleep Late</span>
+      <span class="bubble-word bw-sm" style="--dx:90px;--dy:-100px;--dur:7.1s;--delay:-1.5s">No Exercise</span>
+      <span class="bubble-word bw-xl" style="--dx:-30px;--dy:10px;--dur:5.8s;--delay:-3s">Sitting Too Long</span>
+      <span class="bubble-word bw-md" style="--dx:120px;--dy:40px;--dur:6.8s;--delay:-0.8s">Too Much Phone</span>
+      <span class="bubble-word bw-lg" style="--dx:-130px;--dy:70px;--dur:7.5s;--delay:-2.2s">Ate Too Late</span>
+      <span class="bubble-word bw-sm" style="--dx:60px;--dy:100px;--dur:6.4s;--delay:-4s">Unhealthy Eating</span>
+      <span class="bubble-word bw-xl" style="--dx:100px;--dy:-30px;--dur:5.5s;--delay:-1s">Overworked</span>
+      <span class="bubble-word bw-md" style="--dx:-80px;--dy:-130px;--dur:7.8s;--delay:-2.8s">Alcohol</span>
+      <span class="bubble-word bw-lg" style="--dx:-20px;--dy:130px;--dur:6.9s;--delay:-3.6s">Smoking</span>
+    </div>
+  </section>
+
+  <section class="stats">
+    <div class="stat-item">
+      <span class="stat-num">Local</span>
+      <span class="stat-label">All records on your phone</span>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat-item">
+      <span class="stat-num">0</span>
+      <span class="stat-label">Accounts, ads, or servers</span>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat-item">
+      <span class="stat-num">One</span>
+      <span class="stat-label">Number for today's overdraft</span>
+    </div>
+  </section>
+
+  <section class="philosophy">
+    <div class="philosophy-inner reveal">
+      <p><strong>Health is not lost in a day.</strong> It erodes through small, repeated overdrafts — late nights, long sitting, skipped exercise, poor eating, overwork.</p>
+      <p>Health Debt doesn't judge, lecture, or gamify. It is a ledger. Objective, calm, and neutral — so you can see your patterns before they become problems.</p>
+    </div>
+  </section>
+
+  <section class="bento" id="features">
+    <div class="container">
+      <div class="sec-kicker">Core Features</div>
+      <h2 class="sec-title">Everything a ledger needs.<br>Nothing a fitness app wants.</h2>
+      <div class="bento-grid">
+        <article class="bento-card bento-lg reveal">
+          <div class="bento-content">
+            <span class="bento-tag">01 · Record</span>
+            <h3>Log the overdraft, not the workout</h3>
+            <p>Quickly record health-depleting behaviors with adjustable intensity. Each entry adds to today's total automatically — sleep late, sit too long, skip exercise, eat too late, overwork, and more.</p>
+          </div>
+          <div class="bento-art">
+            <div class="debt-figure">
+              <strong>7</strong>
+              <span>today's health debt</span>
+            </div>
+          </div>
+        </article>
+        <article class="bento-card bento-md reveal">
+          <span class="bento-tag">02 · Today</span>
+          <h3>Today's Health Debt</h3>
+          <p>A single number on the dashboard — the cumulative health debt for today. No scores, no streaks, no celebrations. Just the overdraft.</p>
+        </article>
+        <article class="bento-card bento-sm reveal">
+          <span class="bento-tag">03 · Ledger</span>
+          <h3>A chronological health ledger</h3>
+          <p>Browse records by day. Spot the behaviors that keep repeating, and the habits that keep draining future health.</p>
+        </article>
+        <article class="bento-card bento-sm reveal">
+          <span class="bento-tag">04 · Reminders</span>
+          <h3>Reverse reminders</h3>
+          <p>Factual, low-frequency notifications when patterns suggest sustained or elevated debt. No motivational slogans. Facts only.</p>
+        </article>
+        <article class="bento-card bento-sm reveal">
+          <span class="bento-tag">05 · Yours</span>
+          <h3>Personalization without a profile</h3>
+          <p>Custom behavior types, language, time format, and data export. No account required. You can clear everything from Settings.</p>
+        </article>
+        <article class="bento-card bento-sm reveal">
+          <span class="bento-tag">06 · Private</span>
+          <h3>Local by default</h3>
+          <p>Every record stays on your device. We do not collect, transmit, or store your personal data on any server.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="showcase">
+    <div class="container showcase-row">
+      <div class="showcase-copy reveal">
+        <div class="sec-kicker" style="text-align:left">Data Insights</div>
+        <h2>See where the debt actually comes from</h2>
+        <p>Trend charts, behavior rankings, and peak-time statistics — so you understand the source of the overdraft, instead of staring at a health score.</p>
+        <p>Week, month, or year. The ledger compounds either way. Health Debt just makes the pattern visible.</p>
+      </div>
+      <div class="showcase-visual reveal">
+        <div class="phone">
+          <img src="insights.jpg" alt="Insights screen with weekly debt totals and a bar chart of daily overdrafts">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="how" id="how">
+    <div class="container">
+      <div class="sec-kicker">A day in the ledger</div>
+      <h2 class="sec-title">Your day with Health Debt</h2>
+      <div class="timeline">
+        <div class="tl-item reveal">
+          <div class="tl-marker">
+            <div class="tl-dot"></div>
+            <div class="tl-line"></div>
+          </div>
+          <div class="tl-card">
+            <span class="tl-time">When it happens</span>
+            <h3>Record the overdraft</h3>
+            <p>Something depletes you — a late night, a long sit, a skipped run. Open the app, pick the behavior, set the intensity, record. That's the whole interaction.</p>
+          </div>
+        </div>
+        <div class="tl-item reveal">
+          <div class="tl-marker">
+            <div class="tl-dot"></div>
+            <div class="tl-line"></div>
+          </div>
+          <div class="tl-card">
+            <span class="tl-time">The rest of today</span>
+            <h3>One number on the home screen</h3>
+            <p>Today's Health Debt sits in the middle of the dashboard. It does not cheer. It does not scold. It just tells you how much you already spent.</p>
+          </div>
+        </div>
+        <div class="tl-item reveal">
+          <div class="tl-marker">
+            <div class="tl-dot"></div>
+            <div class="tl-line"></div>
+          </div>
+          <div class="tl-card">
+            <span class="tl-time">Looking back</span>
+            <h3>Read the ledger</h3>
+            <p>Days stack into a chronological account. Recurring behaviors surface on their own — the ones that keep charging interest on tomorrow.</p>
+          </div>
+        </div>
+        <div class="tl-item reveal">
+          <div class="tl-marker">
+            <div class="tl-dot"></div>
+          </div>
+          <div class="tl-card">
+            <span class="tl-time">Over time</span>
+            <h3>See the pattern</h3>
+            <p>Insights show totals, rankings, and when debt spikes. Health Debt does not try to change you. It helps you see — because only then is change possible.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="privacy-banner" id="privacy">
+    <div class="privacy-inner reveal">
+      <h2>Your data stays on your device</h2>
+      <p>All health debt records are stored locally on your phone. We do not collect, transmit, or store your personal data on any server. No ads, no accounts, no cloud sync.</p>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-row">
+        <div class="brand-col">
+          <a href="index.html" class="logo">
+            <img class="logo-mark" src="app_icon.png" alt="Health Debt">
+            <span class="logo-name">Health Debt</span>
+          </a>
+          <p>A personal health liability tracker. See the overdraft before it becomes the problem.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Product</h4>
+          <a href="#features">Features</a>
+          <a href="#how">How it works</a>
+        </div>
+        <div class="footer-col">
+          <h4>Legal</h4>
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="terms-of-service.html">Terms of Service</a>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <a href="mailto:yinxiuping85@gmail.com">yinxiuping85@gmail.com</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      var nodes = document.querySelectorAll(".reveal");
+      if ("IntersectionObserver" in window) {
+        var io = new IntersectionObserver(function (entries) {
+          entries.forEach(function (entry) {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("visible");
+              io.unobserve(entry.target);
+            }
+          });
+        }, { threshold: 0.12 });
+        nodes.forEach(function (n) { io.observe(n); });
+      } else {
+        nodes.forEach(function (n) { n.classList.add("visible"); });
+      }
+    })();
+  </script>
+</body>
+</html>
